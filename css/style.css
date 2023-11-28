@@ -1,0 +1,126 @@
+body {
+    background-color: #EAEAEA;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.text-title {
+    color: #000C20;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.container-image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.image-initial {
+    width: 312px;
+    height: 236px;
+}
+
+.background-container {
+    background: #FFF;
+    border-radius: 40px 40px 0px 0px;
+    width: 100%;
+    /* height: 100%; */
+    padding-bottom: 30%;
+}
+
+.text-container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 25px;
+}
+
+.text-container-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 54px;
+    padding-right: 54px;
+
+    width: 100%;
+}
+
+.text-optmize {
+    color: #000C20;
+    text-align: center;
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+
+    margin-top: 20px;
+}
+
+.text-subtitle {
+    color: #000E24;
+    text-align: center;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.button-login {
+    width: 134%;
+    padding: 15px 16px;
+    gap: 9px;
+
+    border-radius: 30px;
+    background: #06AD00;
+    border: none;
+
+    margin-top: 75px;
+}
+
+.button-text-login {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-transform: inherit;
+}
+
+.button-register {
+    width: 134%;
+    padding: 15px 16px;
+   
+    gap: 9px;
+
+    border-radius: 30px;
+    border: 1px solid #06AD00;
+    background: #FFF;
+}
+
+.button-text-register {
+    color: #06AD00;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-transform: inherit;
+}
